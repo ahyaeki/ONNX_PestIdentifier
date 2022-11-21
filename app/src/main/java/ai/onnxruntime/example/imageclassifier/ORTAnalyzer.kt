@@ -26,9 +26,9 @@ internal class ORTAnalyzer(
 
     // Get index of top 3 values
     // This is for demo purpose only, there are more efficient algorithms for topK problems
-    private fun getTop3(labelVals: FloatArray): List<Int> {
+    private fun getTop5(labelVals: FloatArray): List<Int> {
         var indices = mutableListOf<Int>()
-        for (k in 0..2) {
+        for (k in 0..4) {
             var max: Float = 0.0f
             var idx: Int = 0
             for (i in 0..labelVals.size - 1) {
@@ -95,7 +95,7 @@ internal class ORTAnalyzer(
                         @Suppress("UNCHECKED_CAST")
                         val rawOutput = ((output?.get(0)?.value) as Array<FloatArray>)[0]
                         val probabilities = softMax(rawOutput)
-                        result.detectedIndices = getTop3(probabilities)
+                        result.detectedIndices = getTop5(probabilities)
                         for (idx in result.detectedIndices) {
                             result.detectedScore.add(probabilities[idx])
                         }

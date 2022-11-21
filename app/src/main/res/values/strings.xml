@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Onnx Runtime Mobile Image Classifier</string>
+
+    <string name="activity1">Home</string>
+
+    <string name="button">Classifier</string>
+    <string-array name="IP102_database_txt">
+        <item>Rice Leaf Roller</item>
+        <item>Rice Leaf Caterpillar</item>
+        <item>Paddy Stem Maggot</item>
+        <item>Asiatic Rice Borer</item>
+        <item>Yellow Rice Borer</item>
+        <item>Rice Gall Midge</item>
+        <item>Rice Stem Fly</item>
+        <item>Brown Plant Hopper</item>
+        <item>White Backed Plant Hopper</item>
+        <item>Small Brown Plant Hopper</item>
+    </string-array>
 </resources>

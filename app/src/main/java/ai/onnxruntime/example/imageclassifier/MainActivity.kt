@@ -137,6 +137,16 @@ class MainActivity : AppCompatActivity() {
                 detected_item_value_3.text = "%.2f%%".format(result.detectedScore[2] * 100)
             }
 
+            if (result.detectedIndices.size > 3) {
+                detected_item_4.text = labelData[result.detectedIndices[3]]
+                detected_item_value_4.text = "%.2f%%".format(result.detectedScore[3] * 100)
+            }
+
+            if (result.detectedIndices.size > 4) {
+                detected_item_5.text = labelData[result.detectedIndices[4]]
+                detected_item_value_5.text = "%.2f%%".format(result.detectedScore[3] * 100)
+            }
+
             inference_time_value.text = result.processTimeMs.toString() + "ms"
         }
     }
@@ -146,7 +156,6 @@ class MainActivity : AppCompatActivity() {
         return resources.openRawResource(R.raw.imagenet_classes).bufferedReader().readLines()
     }
 
-    // Read ort model into a ByteArray, run in background
     private suspend fun readModel(): ByteArray = withContext(Dispatchers.IO) {
         val modelID =
             if (enableQuantizedModel) R.raw.insect_pest_basic else R.raw.insect_pest_basic

@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">Onnx Runtime Mobile Image Classifier</string>
 
-    <string name="activity1">Home</string>
+    <string name="activity1">ONNX Pest Classifier</string>
 
-    <string name="button">Classifier</string>
+    <string name="buttonClassifier">Classifier</string>
+    <string name="buttonEncy">Encyclopedia</string>
+
     <string-array name="IP102_database_txt">
         <item>Rice Leaf Roller</item>
         <item>Rice Leaf Caterpillar</item>

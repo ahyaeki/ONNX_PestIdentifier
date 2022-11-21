@@ -13,8 +13,14 @@ class Activity1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.home)
-        val changeActivityBTN = findViewById<Button>(R.id.classifierButton)
-        changeActivityBTN.setOnClickListener { v: View? -> changeActivity() }
+
+        // NAVIGATE TO CLASSIFIER
+        val goToClassifier = findViewById<Button>(R.id.classifierButton)
+        goToClassifier.setOnClickListener { v: View? -> changeActivity() }
+
+        // NAVIGATE TO ENCYCLOPEDIA
+        val goToEncy = findViewById<Button>(R.id.encyButton)
+        goToEncy.setOnClickListener { v: View? -> changeActivity() }
     }
 
     private fun changeActivity() {

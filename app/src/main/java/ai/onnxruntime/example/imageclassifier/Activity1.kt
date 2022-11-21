@@ -16,15 +16,20 @@ class Activity1 : AppCompatActivity() {
 
         // NAVIGATE TO CLASSIFIER
         val goToClassifier = findViewById<Button>(R.id.classifierButton)
-        goToClassifier.setOnClickListener { v: View? -> changeActivity() }
+        goToClassifier.setOnClickListener { v: View? -> changeToClassifier() }
 
         // NAVIGATE TO ENCYCLOPEDIA
         val goToEncy = findViewById<Button>(R.id.encyButton)
-        goToEncy.setOnClickListener { v: View? -> changeActivity() }
+        goToEncy.setOnClickListener { v: View? -> changeToEncy() }
     }
 
-    private fun changeActivity() {
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
+    private fun changeToClassifier() {
+        val intentClassifier = Intent(this, MainActivity::class.java)
+        startActivity(intentClassifier)
+
+    }
+    private fun changeToEncy() {
+        val intentEncy = Intent(this, Ency::class.java)
+        startActivity(intentEncy)
     }
 }

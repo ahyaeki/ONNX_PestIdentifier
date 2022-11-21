@@ -2,7 +2,7 @@ package ai.onnxruntime.example.imageclassifier
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
 
@@ -12,16 +12,15 @@ class Ency : AppCompatActivity() {
         setContentView(R.layout.ency)
 
     val pestJson = applicationContext.assets
-        .open("pestList").bufferedReader().use {
+        .open("pestList.json").bufferedReader().use {
             it.readText()
         }
 
         val pestRead = Gson().fromJson(pestJson, PestList::class.java)
-        val data = arrayListOf<pest>()
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
 
-        val adapter = RecyclerViewAdapter(this, data);
-        recyclerView.layoutManager = GridLayoutManager(this, 102)
+        val adapter = RecyclerViewAdapter(this, pestRead.pest);
+        recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = adapter
     }
 

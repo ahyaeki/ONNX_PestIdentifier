@@ -7,20 +7,20 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class RecyclerViewAdapter(private val context: Context, private val list: ArrayList<pest>): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class RecyclerViewAdapter(private val context: Context, private val list: List<Pest>): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     private inner class ViewHolder internal constructor(itemView: View) : RecyclerView.ViewHolder(itemView){
 
-        internal lateinit var textView2: TextView
-        internal lateinit var textView3: TextView
+        internal var namaHama: TextView
+        internal var namaIlmiah: TextView
 
         init {
-            textView2.findViewById<View>(R.id.textView2)
-            textView3.findViewById<View>(R.id.textView3)
+            namaHama = itemView.findViewById(R.id.textView2)
+            namaIlmiah = itemView.findViewById(R.id.textView3)
         }
         internal fun bind(position: Int) {
-            textView2.text = list[position].nama_hama
-            textView3.text = list[position].nama_ilmiah
+            namaHama.text = list[position].nama_hama
+            namaIlmiah.text = list[position].nama_ilmiah
     }
 
     }

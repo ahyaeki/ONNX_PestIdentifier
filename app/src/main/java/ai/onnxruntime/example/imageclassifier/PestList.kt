@@ -1,5 +1,5 @@
 package ai.onnxruntime.example.imageclassifier
 
 data class PestList(
-    val pest: List<pest>
+    val pest: List<Pest>
 )

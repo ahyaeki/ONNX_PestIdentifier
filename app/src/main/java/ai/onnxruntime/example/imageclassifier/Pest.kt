@@ -1,6 +1,6 @@
 package ai.onnxruntime.example.imageclassifier
 
-data class pest(
+data class Pest(
     val dampak: String,
     val habitat: String,
     val kontrol_bio: String,

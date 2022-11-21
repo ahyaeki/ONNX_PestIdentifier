@@ -1,0 +1,819 @@
+{
+  "pest": [
+    {
+      "nama_hama": "rice leaf roller",
+      "nama_ilmiah": "Cnaphalocrocis medinalis",
+      "habitat": "Sri Lanka, Hong Kong, Taiwan, Thailand, Australia",
+      "dampak": "Menimbulkan kerusakan daun tanaman padi pada saat fase larva ",
+      "kontrol_bio": "Bt crops",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "rice leaf catterpillar",
+      "nama_ilmiah": "Cnaphalocrocis medinalis",
+      "habitat": "Sri Lanka, Hong Kong, Taiwan, Thailand, Australia",
+      "dampak": "Menimbulkan kerusakan daun tanaman padi pada saat fase larva ",
+      "kontrol_bio": "Bt crops",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "paddy stem maggot",
+      "nama_ilmiah": "Hydrellia sasakii",
+      "habitat": "Bangladesh, China, India, Jiangxi, Korea Selatan",
+      "dampak": "Menimbulkan kekerdilan tanaman",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "asiatic rice borer",
+      "nama_ilmiah": "Chilo suppressalis",
+      "habitat": "Iran, India, Sri Lanka, China, Japan, Taiwan",
+      "dampak": "Menimbulkan kerusakan pada daun, ranting, maupun batang tumbuhan padi",
+      "kontrol_bio": "Tachinidae",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "yellow rice borer ",
+      "nama_ilmiah": "Scirpophaga incertulas",
+      "habitat": "Indonesia, Pakistan, Filipina, Australia (Tropika)",
+      "dampak": "Membuat padi menguning dan buah hampa",
+      "kontrol_bio": "Telenomus, Tetrastichus, Trichogramma",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "rice gall midge ",
+      "nama_ilmiah": "Orseolia oryzae",
+      "habitat": "India dan Asia Tenggara",
+      "dampak": "Batang tanaman mengalami benjolan yang dapat berdampak pada kekerdilan dan terhambatnya reproduksi bulir padi",
+      "kontrol_bio": "Platygasterid, eupelmid, dan pteromalid",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Rice Stemfly ",
+      "nama_ilmiah": "pachydiplosis oryzae",
+      "habitat": "India dan Asia Tenggara",
+      "dampak": "Batang tanaman mengalami benjolan yang dapat berdampak pada kekerdilan dan terhambatnya reproduksi bulir padi",
+      "kontrol_bio": "Platygasterid, eupelmid, dan pteromalid",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "brown plant hopper ",
+      "nama_ilmiah": "Nilaparvata lugens",
+      "habitat": "Asia Timur dan Asia Tenggara",
+      "dampak": "Penyebar reovirus (penyakit tungro) pada tanaman padi",
+      "kontrol_bio": "Lycosa pesudoanulata, Oxyopes javanus, Tetragnatha spp.",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "white backed plant hopper ",
+      "nama_ilmiah": "Sogatella furcifera",
+      "habitat": "Asia Timur dan Asia Tenggara",
+      "dampak": "Penyebar reovirus (penyakit tungro) pada tanaman padi",
+      "kontrol_bio": "Lycosa pesudoanulata",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "small brown plant hopper ",
+      "nama_ilmiah": " Laodelphax striatellus",
+      "habitat": "Asia",
+      "dampak": "Penyebar virus RSV (Rice Stripe Virus) pada tanaman padi",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "rice water weevil ",
+      "nama_ilmiah": "Lissorhoptrus oryzophilus",
+      "habitat": "Canada, USA, Mexico",
+      "dampak": "Larva menyerang akar, sedangkan serangga dewasa menyerang daun. Padi dan rerumputan menjadi target utama",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "rice leafhopper ",
+      "nama_ilmiah": "Nephotettix nigropictus ",
+      "habitat": "Asia",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "grain spreader thrips ",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "rice shell pest ",
+      "nama_ilmiah": "Sitophilus oryzae",
+      "habitat": "Semua wilayah dengan suhu hangat dan tropikal",
+      "dampak": "Penyebaran patogen Gregarina sitophili yang dapat membahayakan pencernaan manusia, serta serangga dapat menurunkan kualitas beras, gandum, dan jagung",
+      "kontrol_bio": "Pteromalids ",
+      "kontrol_kim": "Feromon jantan untuk memancing kedua kelamin hama, serta jebakan berisi beras coklat"
+    },
+    {
+      "nama_hama": "grub",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "mole cricket ",
+      "nama_ilmiah": "Gryllotalpidae",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "wireworm",
+      "nama_ilmiah": "Elateridae (larvae)",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "white margined moth ",
+      "nama_ilmiah": "Pieris marginalis",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "black cutworm ",
+      "nama_ilmiah": "Agrotis ipsilon",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "large cutworm ",
+      "nama_ilmiah": "Spodoptera dolichos",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "yellow cutworm ",
+      "nama_ilmiah": "Apamea amputatrix",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "red spider ",
+      "nama_ilmiah": "Tetranychus urticae",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "corn borer ",
+      "nama_ilmiah": "Ostrinia nubilalis",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "army worm ",
+      "nama_ilmiah": "Spodoptera frugiperda",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "aphids ",
+      "nama_ilmiah": "Aphidoidea",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Potosiabre vitarsis ",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "peach borer ",
+      "nama_ilmiah": "Synanthedon exitiosa",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "english grain aphid ",
+      "nama_ilmiah": "Sitobion avenae",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "green bug ",
+      "nama_ilmiah": "Chinavia hilaris",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "bird cherry-oataphid ",
+      "nama_ilmiah": "Rhopalosiphum padi",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "wheat blossom midge ",
+      "nama_ilmiah": "Sitodiplosis mosellana",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "penthaleus major ",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "longlegged spider mite ",
+      "nama_ilmiah": "Opiliones Sundevall",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "wheat phloeothrips ",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "wheat sawfly",
+      "nama_ilmiah": "Cephus cinctus",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "cerodonta denticornis",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "beet fly",
+      "nama_ilmiah": "Pegomya hyoscyami",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "flea beetle",
+      "nama_ilmiah": "Alticini",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "cabbage army worm",
+      "nama_ilmiah": "Trichoplusia ni",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "beet army worm",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Beet spot flies",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "meadow moth",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "beet weevil",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "sericaorient alismots chulsky ",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "alfalfa weevil",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "flax budworm",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "alfalfa plant bug",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "tarnished plant bug ",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Locustoidea",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "lytta polita",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "legume blister beetle ",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "blister beetle",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "therioaphis maculata Buckton ",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "odontothrips loti",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Thrips",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "alfalfa seed chalcid ",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Pieris canidia",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Apolygus lucorum",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Limacodidae",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Viteus vitifoliae",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Colomerus vitis",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Brevipoalpus lewisi McGregor ",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "oides decempunctata ",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Polyphagotars onemus latus",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Pseudococcus comstocki Kuwana ",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "parathrene regalis",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Ampelophaga",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Lycorma delicatula",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Xylotrechus",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Cicadella viridis",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Miridae",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Trialeurodes vaporariorum",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Erythroneura apicalis",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Papilio xuthus",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Panonchus citri McGregor",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Phyllocoptes oleiverus ashmead",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Icerya purchasi Maskell",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Unaspis yanonensis",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Ceroplastes rubens",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Chrysomphalus aonidum",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Parlatoria zizyphus Lucus",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Nipaecoccus vastalor",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Aleurocanthus spiniferus",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Tetradacus c Bactrocera minax",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Dacus dorsalis(Hendel)",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Bactrocera tsuneonis",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Prodenia litura",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Adristyrannus",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Phyllocnistis citrella Stainton",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Toxoptera citricidus",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Toxoptera aurantii",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Aphis citricola Vander Goot",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Scirtothrips dorsalis Hood",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Dasineura sp",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Lawana imitata Melichar",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Salurnis marginella Guerr",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Deporaus marginatus Pascoe",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Chlumetia transversa",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Mango flat beak leafhopper",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Rhytidodera bowrinii white",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Sternochetus frigidus",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    },
+    {
+      "nama_hama": "Cicadellidae",
+      "nama_ilmiah": "NULL",
+      "habitat": "NULL",
+      "dampak": "NULL",
+      "kontrol_bio": "NULL",
+      "kontrol_kim": "NULL"
+    }
+  ]
+}

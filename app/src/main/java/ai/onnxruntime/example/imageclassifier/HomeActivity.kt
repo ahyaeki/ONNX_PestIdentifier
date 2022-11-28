@@ -22,7 +22,7 @@ class HomeActivity : AppCompatActivity() {
     }
 
     private fun changeToClassifier() {
-        val intentClassifier = Intent(this, MainActivity::class.java)
+        val intentClassifier = Intent(this, ClassifierActivity::class.java)
         startActivity(intentClassifier)
 
     }

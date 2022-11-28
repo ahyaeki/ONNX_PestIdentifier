@@ -14,9 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ort_image_classifier">
         <activity
-            android:name=".Ency"
+            android:name=".PestListActivity"
             android:exported="false" />
-        <activity android:name=".Activity1">
+        <activity
+            android:name=".PestDetailActivity"
+            android:exported="false" />
+        <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,36 +1,43 @@
 package ai.onnxruntime.example.imageclassifier
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class RecyclerViewAdapter(private val context: Context, private val list: List<Pest>): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class RecyclerViewAdapter(private val onClick: (Pest) -> Unit, private val list: List<Pest>): RecyclerView.Adapter<RecyclerViewAdapter.PestViewHolder>() {
 
-    private inner class ViewHolder internal constructor(itemView: View) : RecyclerView.ViewHolder(itemView){
+    class PestViewHolder (itemView: View, val onClick: (Pest) -> Unit) :
+        RecyclerView.ViewHolder(itemView){
 
-        internal var namaHama: TextView
-        internal var namaIlmiah: TextView
+        private val namaHama : TextView = itemView.findViewById(R.id.textNamaHama)
+        private val namaIlmiah : TextView = itemView.findViewById(R.id.textNamaIlmiah)
+        private var currentPest: Pest? = null
 
         init {
-            namaHama = itemView.findViewById(R.id.textView2)
-            namaIlmiah = itemView.findViewById(R.id.textView3)
+            itemView.setOnClickListener {
+                currentPest?.let {
+                    onClick(it)
+                }
+            }
         }
-        internal fun bind(position: Int) {
-            namaHama.text = list[position].nama_hama
-            namaIlmiah.text = list[position].nama_ilmiah
-    }
+        internal fun bind(pest: Pest) {
+            currentPest = pest
+            namaHama.text = pest.nama_hama
+            namaIlmiah.text = pest.nama_ilmiah
+        }
 
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
-        return ViewHolder(LayoutInflater.from(context).inflate(R.layout.recycler_view_ency, parent, false))
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PestViewHolder {
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.recycler_view_ency, parent, false)
+        return PestViewHolder(view, onClick)
     }
 
-    override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
-        (holder as ViewHolder).bind(position)
+    override fun onBindViewHolder(holder: PestViewHolder, position: Int) {
+        val pest = list[position]
+        holder.bind(pest)
     }
 
     override fun getItemCount(): Int {

@@ -48,6 +48,7 @@ android {
 
 dependencies {
     implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.7.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
     // CameraX core library using the camera2 implementation
     def camerax_version = "1.0.0"

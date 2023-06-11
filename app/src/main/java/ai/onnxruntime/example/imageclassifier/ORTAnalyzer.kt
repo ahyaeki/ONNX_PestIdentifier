@@ -24,7 +24,7 @@ internal class ORTAnalyzer(
         private val callBack: (Result) -> Unit
 ) : ImageAnalysis.Analyzer {
 
-    // Get index of top 3 values
+    // Get index of top 5 values
     // This is for demo purpose only, there are more efficient algorithms for topK problems
     private fun getTop5(labelVals: FloatArray): List<Int> {
         var indices = mutableListOf<Int>()

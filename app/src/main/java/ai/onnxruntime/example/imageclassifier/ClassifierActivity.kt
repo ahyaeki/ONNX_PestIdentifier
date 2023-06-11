@@ -144,7 +144,7 @@ class ClassifierActivity : AppCompatActivity() {
 
             if (result.detectedIndices.size > 4) {
                 detected_item_5.text = labelData[result.detectedIndices[4]]
-                detected_item_value_5.text = "%.2f%%".format(result.detectedScore[3] * 100)
+                detected_item_value_5.text = "%.2f%%".format(result.detectedScore[4] * 100)
             }
 
             inference_time_value.text = result.processTimeMs.toString() + "ms"

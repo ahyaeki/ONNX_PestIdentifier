@@ -4,9 +4,19 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Filter
+import android.widget.Filterable
 import androidx.recyclerview.widget.RecyclerView
+import java.util.*
 
-class RecyclerViewAdapter(private val onClick: (Pest) -> Unit, private val list: List<Pest>): RecyclerView.Adapter<RecyclerViewAdapter.PestViewHolder>() {
+
+
+class RecyclerViewAdapter(private val onClick: (Pest) -> Unit, private var list: List<Pest>):
+    RecyclerView.Adapter<RecyclerViewAdapter.PestViewHolder>() {
+
+
+    private var originalList: List<Pest> = ArrayList(list)
+    private var filteredList: List<Pest> = list
 
     class PestViewHolder (itemView: View, val onClick: (Pest) -> Unit) :
         RecyclerView.ViewHolder(itemView){
@@ -36,11 +46,67 @@ class RecyclerViewAdapter(private val onClick: (Pest) -> Unit, private val list:
     }
 
     override fun onBindViewHolder(holder: PestViewHolder, position: Int) {
-        val pest = list[position]
+        val pest = filteredList[position]
         holder.bind(pest)
     }
 
     override fun getItemCount(): Int {
-        return list.size
+        return filteredList.size
     }
+
+    private fun filterList(filteredList: List<Pest>) {
+        list = filteredList
+        notifyDataSetChanged()
+    }
+
+    fun filterList(query: String?) {
+        val filteredList = mutableListOf<Pest>()
+
+        if (query.isNullOrEmpty()) {
+            filteredList.addAll(originalList)
+        } else {
+            val searchQuery = query.toLowerCase(Locale.getDefault())
+            originalList.forEach { pest ->
+                if (pest.nama_hama.toLowerCase(Locale.getDefault()).contains(searchQuery)) {
+                    filteredList.add(pest)
+                }
+            }
+        }
+
+        this.filterList(filteredList)
+    }
+
+    /*override fun getFilter(): Filter {
+        return object : Filter() {
+            override fun performFiltering(constraint: CharSequence?): FilterResults {
+                val query = constraint?.toString()?.toLowerCase()
+                val results = FilterResults()
+                results.values = if  (query.isNullOrEmpty()) {
+                    list
+                } else {
+                    list.filter {
+                        it.nama_hama.toLowerCase().contains(query) ||
+                                it.nama_ilmiah.toLowerCase().contains(query)
+                    }
+                }
+                return results
+            }
+
+            override fun publishResults(constraint: CharSequence?, results: FilterResults?) {
+                @Suppress("UNCHECKED_CAST")
+                filteredList = results?.values as? List<Pest> ?: emptyList()
+                notifyDataSetChanged()
+            }
+        }
+    }*/
+
+
+    // override fun onBindViewHolder(holder: PestViewHolder, position: Int) {
+    //    val pest = list[position]
+     //   holder.bind(pest)
+  //  }
+
+ //   override fun getItemCount(): Int {
+  //      return list.size
+  //  }
 }

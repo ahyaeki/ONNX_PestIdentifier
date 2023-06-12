@@ -5,6 +5,7 @@
     <uses-feature android:name="android.hardware.camera.any" />
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,7 +13,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Ort_image_classifier">
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
         <activity
             android:name=".PestListActivity"
             android:exported="false" />

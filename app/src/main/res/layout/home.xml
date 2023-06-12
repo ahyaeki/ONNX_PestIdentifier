@@ -47,15 +47,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.342" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/classifierButton"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="48dp"
         android:layout_width="260dp"
         android:layout_height="60dp"
-        android:backgroundTint="@color/semi_transparent"
-        android:elevation="10dp"
+        android:background="@drawable/rounded_button"
         android:text="@string/buttonClassifier"
-        android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/baseline_search_24"
+        android:drawablePadding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -63,45 +66,24 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.349" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/encyButton"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="48dp"
         android:layout_width="260dp"
         android:layout_height="60dp"
-        android:backgroundTint="@color/semi_transparent"
-        android:elevation="10dp"
+        android:background="@drawable/rounded_button"
         android:text="@string/buttonEncy"
-        android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/baseline_book_24"
+        android:drawablePadding="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/classifierButton"
         app:layout_constraintVertical_bias="0.332" />
-
-    <ImageView
-        android:id="@+id/iconClassifier"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:elevation="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/classifierButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.226"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/magniglass" />
-
-    <ImageView
-        android:id="@+id/iconEncy"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:elevation="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/encyButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.78"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/insectcartoon" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

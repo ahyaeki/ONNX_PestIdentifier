@@ -6,7 +6,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Filter
 import android.widget.Filterable
+import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import java.util.*
 
 
@@ -24,6 +26,7 @@ class RecyclerViewAdapter(private val onClick: (Pest) -> Unit, private var list:
         private val namaHama : TextView = itemView.findViewById(R.id.textNamaHama)
         private val namaIlmiah : TextView = itemView.findViewById(R.id.textNamaIlmiah)
         private var currentPest: Pest? = null
+        private var imageView: ImageView = itemView.findViewById(R.id.imageItemView)
 
         init {
             itemView.setOnClickListener {
@@ -36,6 +39,11 @@ class RecyclerViewAdapter(private val onClick: (Pest) -> Unit, private var list:
             currentPest = pest
             namaHama.text = pest.nama_hama
             namaIlmiah.text = pest.nama_ilmiah
+            if (pest.image_url != null){
+            Glide.with(imageView.context)
+                .load(pest.image_url)
+                .into(imageView)
+        }
         }
 
     }

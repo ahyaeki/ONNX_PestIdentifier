@@ -6,6 +6,7 @@ data class Pest(
     val kontrol_bio: String,
     val kontrol_kim: String,
     val nama_hama: String,
-    val nama_ilmiah: String
+    val nama_ilmiah: String,
+    val image_url: String?
 )
 

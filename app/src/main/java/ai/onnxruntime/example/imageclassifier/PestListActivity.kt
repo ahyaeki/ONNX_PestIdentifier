@@ -42,7 +42,7 @@ class PestListActivity : AppCompatActivity() {
 
         search.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
-                adapter.filterList(query)
+//                adapter.filterList(query)
                 return false
             }
 
@@ -50,6 +50,7 @@ class PestListActivity : AppCompatActivity() {
                 adapter.filterList(newText)
                 return true
             }
+
         })
     }
 

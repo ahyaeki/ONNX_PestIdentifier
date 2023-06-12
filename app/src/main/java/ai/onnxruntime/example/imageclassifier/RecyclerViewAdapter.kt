@@ -46,12 +46,12 @@ class RecyclerViewAdapter(private val onClick: (Pest) -> Unit, private var list:
     }
 
     override fun onBindViewHolder(holder: PestViewHolder, position: Int) {
-        val pest = filteredList[position]
+        val pest = list[position]
         holder.bind(pest)
     }
 
     override fun getItemCount(): Int {
-        return filteredList.size
+        return list.size
     }
 
     private fun filterList(filteredList: List<Pest>) {
@@ -61,16 +61,13 @@ class RecyclerViewAdapter(private val onClick: (Pest) -> Unit, private var list:
 
     fun filterList(query: String?) {
         val filteredList = mutableListOf<Pest>()
-
         if (query.isNullOrEmpty()) {
             filteredList.addAll(originalList)
         } else {
-            val searchQuery = query.toLowerCase(Locale.getDefault())
-            originalList.forEach { pest ->
-                if (pest.nama_hama.toLowerCase(Locale.getDefault()).contains(searchQuery)) {
-                    filteredList.add(pest)
-                }
+            val filtered = originalList.filter {pestItem ->
+                pestItem.nama_hama.contains(query, ignoreCase = true)
             }
+            filteredList.addAll(filtered)
         }
 
         this.filterList(filteredList)

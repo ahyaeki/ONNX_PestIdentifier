@@ -19,6 +19,7 @@ const val PEST_scientific = "pest_scientific"
 const val PEST_habitat = "pest_habitat"
 const val PEST_dampak = "pest_dampak"
 const val PEST_kontrol = "pest_kontrol"
+const val gambarDetail = "image_url"
 
 class PestListActivity : AppCompatActivity() {
 
@@ -61,12 +62,8 @@ class PestListActivity : AppCompatActivity() {
         intent.putExtra(PEST_habitat, pest.habitat)
         intent.putExtra(PEST_dampak, pest.dampak)
         intent.putExtra(PEST_kontrol, pest.kontrol_bio)
+        intent.putExtra(gambarDetail, pest.image_url)
 
         startActivity(intent)
     }
-
-
-
-
-
 }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginBottom="-100dp"
-    android:background="@drawable/background_green_hue">
+    android:background="@drawable/lightgreen">
 
     <androidx.cardview.widget.CardView
         android:layout_width="409dp"

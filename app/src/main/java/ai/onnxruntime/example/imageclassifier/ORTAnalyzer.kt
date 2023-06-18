@@ -29,8 +29,8 @@ internal class ORTAnalyzer(
     private fun getTop5(labelVals: FloatArray): List<Int> {
         var indices = mutableListOf<Int>()
         for (k in 0..4) {
-            var max: Float = 0.0f
-            var idx: Int = 0
+            var max = 0.0f
+            var idx = 0
             for (i in 0..labelVals.size - 1) {
                 val label_val = labelVals[i]
                 if (label_val > max && !indices.contains(i)) {
